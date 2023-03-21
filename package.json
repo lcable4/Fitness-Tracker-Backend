@@ -1,0 +1,37 @@
+{
+  "name": "fitness_tracker_backend_starter_12-22",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "seed:dev": "nodemon ./db/seed.js",
+    "seed": "node ./db/seed.js",
+    "start:dev": "nodemon server.js",
+    "start": "node server.js",
+    "test": "jest --runInBand",
+    "test:watch": "jest --runInBand --watchAll"
+  },
+  "keywords": [
+    "node",
+    "express",
+    "postgresql",
+    "javascript"
+  ],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "dependencies": {
+    "axios": "^1.2.2",
+    "bcrypt": "^5.1.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "faker": "4.1.0",
+    "jest": "^29.3.1",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "pg": "^8.8.0"
+  }
+}
